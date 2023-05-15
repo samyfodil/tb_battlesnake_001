@@ -6,7 +6,7 @@ trigger:
     type: https
     method: POST
     paths:
-        - /logic/move
+        - /001/move
 domains:
     - dom
 execution:

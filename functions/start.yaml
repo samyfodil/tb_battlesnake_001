@@ -6,7 +6,7 @@ trigger:
     type: https
     method: POST
     paths:
-        - /logic/start
+        - /001/start
 domains:
     - dom
 execution:

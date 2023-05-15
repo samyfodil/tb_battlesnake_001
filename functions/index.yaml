@@ -6,7 +6,7 @@ trigger:
     type: https
     method: GET
     paths:
-        - /logic
+        - /001/
 domains:
     - dom
 execution:
