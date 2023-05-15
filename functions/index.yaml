@@ -1,0 +1,15 @@
+id: QmSaUzBNa2xrQnERVGrKK24mZbGgJ4Z5JvwCzK7rSo9EQq
+description: ""
+tags: []
+source: libraries/snake_001
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /logic
+domains:
+    - dom
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: index
