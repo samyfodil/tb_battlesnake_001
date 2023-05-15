@@ -10,6 +10,6 @@ trigger:
 domains:
     - dom
 execution:
-    timeout: 3600s
+    timeout: 500s
     memory: 10MB
     call: move
