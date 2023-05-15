@@ -1,0 +1,15 @@
+id: QmNvaW14pC9B6dYRZUSioWKSuVGGsQa1qdyNQJ9hxTd8sp
+description: ""
+tags: []
+source: libraries/snake_001
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /logic/move
+domains:
+    - dom
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: move

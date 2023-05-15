@@ -1,0 +1,15 @@
+id: Qme5MQ55Y4tMi88X6dAUwMsUmqZzsAKXuPTYMcEnwDezwv
+description: ""
+tags: []
+source: libraries/snake_001
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /logic/start
+domains:
+    - dom
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: start
