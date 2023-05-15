@@ -1,4 +1,4 @@
-id: QmNvaW14pC9B6dYRZUSioWKSuVGGsQa1qdyNQJ9hxTd8sp
+id: QmPyLe1bbqaMQNcroVpuHCmq5w59HKLZw9DyPbjxV9vrx2
 description: ""
 tags: []
 source: libraries/snake_001
@@ -6,10 +6,10 @@ trigger:
     type: https
     method: POST
     paths:
-        - /logic/move0
+        - /logic/move
 domains:
     - dom
 execution:
-    timeout: 500s
+    timeout: 60s
     memory: 10MB
     call: move
