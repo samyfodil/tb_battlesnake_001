@@ -11,5 +11,5 @@ domains:
     - dom
 execution:
     timeout: 500s
-    memory: 10MB
+    memory: 128MB
     call: move
